@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -7,6 +8,12 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+=======
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+>>>>>>> 4947915 (Initial project structure)
 .Python
 build/
 develop-eggs/
@@ -20,6 +27,7 @@ parts/
 sdist/
 var/
 wheels/
+<<<<<<< HEAD
 share/python-wheels/
 *.egg-info/
 .installed.cfg
@@ -122,11 +130,19 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+=======
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+>>>>>>> 4947915 (Initial project structure)
 .env
 .venv
 env/
 venv/
 ENV/
+<<<<<<< HEAD
 env.bak/
 venv.bak/
 
@@ -160,3 +176,19 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+=======
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+>>>>>>> 4947915 (Initial project structure)

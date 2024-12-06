@@ -1,0 +1,25 @@
+footwear-classifier/
+├── backend/
+│   ├── src/
+│   │   ├── core/
+│   │   │   ├── ProductAnalyzer.ts
+│   │   │   ├── ClassificationEngine.ts
+│   │   │   └── InteractionManager.ts
+│   │   ├── models/
+│   │   │   ├── Product.ts
+│   │   │   └── ClassificationResult.ts
+│   │   └── knowledge/
+│   │       ├── rules/
+│   │       │   ├── materialRules.ts
+│   │       │   └── constructionRules.ts
+│   │       └── validation/
+│   │           └── attributeRules.ts
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── ProductInput.tsx
+│   │   │   ├── AttributeForm.tsx
+│   │   │   └── ResultDisplay.tsx
+│   │   └── services/
+│   │       └── api.ts
+└── package.json 
